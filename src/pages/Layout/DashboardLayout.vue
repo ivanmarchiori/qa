@@ -17,6 +17,11 @@
         <p>Testes Automatizados</p>
       </sidebar-link>
 
+      <sidebar-link to="/deploy">
+        <md-icon>content_paste</md-icon>
+        <p>Deploy Automático</p>
+      </sidebar-link>
+
       <sidebar-link to="/servicos">
         <md-icon>location_on</md-icon>
         <p>Serviços</p>

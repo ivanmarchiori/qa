@@ -3,6 +3,9 @@ import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 import Dashboard from "@/pages/Dashboard.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import Testes from "@/pages/Testes.vue";
+import Deploy from "@/pages/Deploy.vue";
+import Servicos from "@/pages/Servicos.vue";
+import Documentacao from "@/pages/Documentacao.vue";
 import Typography from "@/pages/Typography.vue";
 import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
@@ -33,13 +36,19 @@ const routes = [
       {
         path: "servicos",
         name: "Serviços",
-        component: Testes,
+        component: Servicos,
       },
       {
         path: "docs",
         name: "Documentação",
-        component: Testes,
+        component: Documentacao,
       },
+      {
+        path: "deploy",
+        name: "Deploy Automático",
+        component: Deploy,
+      },
+      
       {
         path: "typography",
         name: "Typography",

@@ -2,74 +2,74 @@
   <form>
     <md-card>
       <md-card-header :data-background-color="dataBackgroundColor">
-        <h4 class="title">Edit Profile</h4>
-        <p class="category">Complete your profile</p>
+        <h4 class="title">Alterar Perfil</h4>
+        <p class="category">Complete seu Cadastro</p>
       </md-card-header>
 
       <md-card-content>
         <div class="md-layout">
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>Company (disabled)</label>
+              <label>Empresa (disabled)</label>
               <md-input v-model="disabled" disabled></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>User Name</label>
+              <label>Usuário</label>
               <md-input v-model="username" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>Email Address</label>
+              <label>E-mail</label>
               <md-input v-model="emailadress" type="email"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-50">
             <md-field>
-              <label>First Name</label>
+              <label>Nome</label>
               <md-input v-model="firstname" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-50">
             <md-field>
-              <label>Last Name</label>
+              <label>Sobrenome</label>
               <md-input v-model="lastname" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-100">
             <md-field>
-              <label>Adress</label>
+              <label>Endereço</label>
               <md-input v-model="address" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>City</label>
+              <label>Cidade</label>
               <md-input v-model="city" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>Country</label>
+              <label>Pais</label>
               <md-input v-model="country" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>Postal Code</label>
+              <label>CEP</label>
               <md-input v-model="code" type="number"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-size-100">
             <md-field maxlength="5">
-              <label>About Me</label>
+              <label>Sobre </label>
               <md-textarea v-model="aboutme"></md-textarea>
             </md-field>
           </div>
           <div class="md-layout-item md-size-100 text-right">
-            <md-button class="md-raised md-success">Update Profile</md-button>
+            <md-button class="md-raised md-success">Atualizar</md-button>
           </div>
         </div>
       </md-card-content>
@@ -97,7 +97,7 @@ export default {
       country: null,
       code: null,
       aboutme:
-        "Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.",
+        "",
     };
   },
 };
