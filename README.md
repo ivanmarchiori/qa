@@ -113,6 +113,6 @@ Ao encontrar erros e sugerir sugestões, sinta-se a vontade para contribuir a pa
 
 Se você tiver dúvidas ou precisar de ajuda, por favor entre em contato em ivanmarchiori@hotmail.com em vez de abrir um problema. 
 
-## Licensa
+## Licença
 
 - Uso Livre
