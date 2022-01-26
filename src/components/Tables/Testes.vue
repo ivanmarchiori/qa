@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "simple-table",
+  name: "simple-table-testes",
   props: {
     tableHeaderColor: {
       type: String,

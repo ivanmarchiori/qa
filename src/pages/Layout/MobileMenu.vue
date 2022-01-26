@@ -2,7 +2,7 @@
   <ul class="nav nav-mobile-menu">
     <li>
       <md-field>
-        <label>Search</label>
+        <label>Pesquisar Colaborador</label>
         <md-input v-model="search" type="text"></md-input>
       </md-field>
     </li>
@@ -16,22 +16,20 @@
       <drop-down>
         <a slot="title" class="dropdown-toggle" data-toggle="dropdown">
           <i class="material-icons">notifications</i>
-          <span class="notification">5</span>
-          <p>Notifications</p>
+          <span class="notification">0</span>
+          <p>Notificações</p>
         </a>
         <ul class="dropdown-menu dropdown-menu-right">
-          <li><a href="#">Mike John responded to your email</a></li>
-          <li><a href="#">You have 5 new tasks</a></li>
-          <li><a href="#">You're now friend with Andrew</a></li>
-          <li><a href="#">Another Notification</a></li>
-          <li><a href="#">Another One</a></li>
+          <li><a href="#">Notificação 01</a></li>
+          <li><a href="#">Notificação 02</a></li>
+          <li><a href="#">Notificação 03</a></li>
         </ul>
       </drop-down>
     </li>
     <li>
       <a href="#" data-toggle="dropdown" class="dropdown-toggle"
         ><i class="material-icons">person</i>
-        <p>Profile</p></a
+        <p>Perfil</p></a
       >
     </li>
   </ul>
@@ -43,14 +41,10 @@ export default {
       search: null,
       selectedEmployee: null,
       employees: [
-        "Jim Halpert",
-        "Dwight Schrute",
-        "Michael Scott",
-        "Pam Beesly",
-        "Angela Martin",
-        "Kelly Kapoor",
-        "Ryan Howard",
-        "Kevin Malone",
+        "Colaborador 01",
+        "Colaborador 02",
+        "Colaborador 03",
+        "Colaborador 04",
       ],
     };
   },

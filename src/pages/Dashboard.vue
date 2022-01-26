@@ -11,19 +11,19 @@
           data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Daily Sales</h4>
+            <h4 class="title">Metrica 01</h4>
             <p class="category">
               <span class="text-success"
-                ><i class="fas fa-long-arrow-alt-up"></i> 55%
+                ><i class="fas fa-long-arrow-alt-up"></i> 00%
               </span>
-              increase in today sales.
+              comparação com periodo anterior
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 4 minutes ago
+              atualizado a 00 minutos
             </div>
           </template>
         </chart-card>
@@ -39,14 +39,14 @@
           data-background-color="red"
         >
           <template slot="content">
-            <h4 class="title">Email Subscription</h4>
-            <p class="category">Last Campaign Performance</p>
+            <h4 class="title">Metrica 02</h4>
+            <p class="category">Detalhe da Metrica</p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 10 days ago
+              atualizado a 00 minutos
             </div>
           </template>
         </chart-card>
@@ -61,14 +61,14 @@
           data-background-color="green"
         >
           <template slot="content">
-            <h4 class="title">Completed Tasks</h4>
-            <p class="category">Last Campaign Performance</p>
+            <h4 class="title">Metrica 03</h4>
+            <p class="category">Detalhe da Metrica</p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              campaign sent 26 minutes ago
+              atualizado a 00 minutos
             </div>
           </template>
         </chart-card>
@@ -82,14 +82,14 @@
           </template>
 
           <template slot="content">
-            <p class="category">Revenue</p>
-            <h3 class="title">$34,245</h3>
+            <p class="category">Metrica</p>
+            <h3 class="title">00,000</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>date_range</md-icon>
-              Last 24 Hours
+              Últimas 00 horas
             </div>
           </template>
         </stats-card>
@@ -103,9 +103,9 @@
           </template>
 
           <template slot="content">
-            <p class="category">Used Space</p>
+            <p class="category">Metrica</p>
             <h3 class="title">
-              49/50
+              00/00
               <small>GB</small>
             </h3>
           </template>
@@ -113,7 +113,7 @@
           <template slot="footer">
             <div class="stats">
               <md-icon class="text-danger">warning</md-icon>
-              <a href="#pablo">Get More Space...</a>
+              <a href="#pablo">atenção...</a>
             </div>
           </template>
         </stats-card>
@@ -127,14 +127,14 @@
           </template>
 
           <template slot="content">
-            <p class="category">Fixed Issues</p>
-            <h3 class="title">75</h3>
+            <p class="category">Metrica</p>
+            <h3 class="title">00</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>local_offer</md-icon>
-              Tracked from Github
+              Detalhe da Metrica
             </div>
           </template>
         </stats-card>
@@ -144,18 +144,18 @@
       >
         <stats-card data-background-color="blue">
           <template slot="header">
-            <i class="fab fa-twitter"></i>
+             <md-icon>local_offer</md-icon>
           </template>
 
           <template slot="content">
-            <p class="category">Folowers</p>
-            <h3 class="title">+245</h3>
+            <p class="category">Metrica</p>
+            <h3 class="title">000</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>update</md-icon>
-              Just Updated
+              Últimas 00 horas
             </div>
           </template>
         </stats-card>
@@ -165,8 +165,8 @@
       >
         <md-card>
           <md-card-header data-background-color="orange">
-            <h4 class="title">Employees Stats</h4>
-            <p class="category">New employees on 15th September, 2016</p>
+            <h4 class="title">Metrica</h4>
+            <p class="category">Detalhes da Metrica</p>
           </md-card-header>
           <md-card-content>
             <ordered-table table-header-color="orange"></ordered-table>
@@ -178,17 +178,17 @@
       >
         <nav-tabs-card>
           <template slot="content">
-            <span class="md-nav-tabs-title">Tasks:</span>
+            <span class="md-nav-tabs-title">Tarefas:</span>
             <md-tabs class="md-success" md-alignment="left">
               <md-tab id="tab-home" md-label="Bugs" md-icon="bug_report">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-pages" md-label="Website" md-icon="code">
+              <md-tab id="tab-pages" md-label="Serviços" md-icon="code">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-posts" md-label="server" md-icon="cloud">
+              <md-tab id="tab-posts" md-label="Servidores" md-icon="cloud">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
             </md-tabs>
@@ -220,7 +220,7 @@ export default {
     return {
       dailySalesChart: {
         data: {
-          labels: ["M", "T", "W", "T", "F", "S", "S"],
+          labels: ["S", "T", "Q", "Q", "S", "S", "D"],
           series: [[12, 17, 7, 17, 23, 18, 38]],
         },
         options: {
@@ -239,8 +239,8 @@ export default {
       },
       dataCompletedTasksChart: {
         data: {
-          labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-          series: [[230, 750, 450, 300, 280, 240, 200, 190]],
+          labels: ["Acesso", "Franquias", "Consultor", "Cadastros"],
+          series: [[230, 750, 450, 300]],
         },
 
         options: {
@@ -260,18 +260,18 @@ export default {
       emailsSubscriptionChart: {
         data: {
           labels: [
-            "Ja",
-            "Fe",
-            "Ma",
-            "Ap",
+            "Jan",
+            "Fev",
+            "Mar",
+            "Abr",
             "Mai",
-            "Ju",
+            "Jun",
             "Jul",
-            "Au",
-            "Se",
-            "Oc",
-            "No",
-            "De",
+            "Ago",
+            "Set",
+            "Out",
+            "Nov",
+            "Dez",
           ],
           series: [
             [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895],

@@ -11,35 +11,39 @@
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
       </sidebar-link>
-      <sidebar-link to="/user">
-        <md-icon>person</md-icon>
-        <p>User Profile</p>
-      </sidebar-link>
-      <sidebar-link to="/table">
+
+      <sidebar-link to="/testes">
         <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+        <p>Testes Automatizados</p>
       </sidebar-link>
-      <sidebar-link to="/typography">
-        <md-icon>library_books</md-icon>
-        <p>Typography</p>
-      </sidebar-link>
-      <sidebar-link to="/icons">
-        <md-icon>bubble_chart</md-icon>
-        <p>Icons</p>
-      </sidebar-link>
-      <sidebar-link to="/maps">
+
+      <sidebar-link to="/servicos">
         <md-icon>location_on</md-icon>
-        <p>Maps</p>
+        <p>Serviços</p>
       </sidebar-link>
+
+      <sidebar-link to="/docs">
+        <md-icon>library_books</md-icon>
+        <p>Documentação</p>
+      </sidebar-link>
+
       <sidebar-link to="/notifications">
         <md-icon>notifications</md-icon>
-        <p>Notifications</p>
+        <p>Notificações</p>
       </sidebar-link>
-      <sidebar-link to="/upgrade" class="active-pro">
-        <md-icon>unarchive</md-icon>
-        <p>Upgrade to PRO</p>
+
+      <sidebar-link to="/user">
+        <md-icon>person</md-icon>
+        <p>Usuários</p>
+      </sidebar-link> 
+
+    
+      <sidebar-link to="/logoff">
+        <md-icon>logout</md-icon>
+        <p>Logoff</p>
       </sidebar-link>
     </side-bar>
+
 
     <div class="main-panel">
       <top-navbar></top-navbar>

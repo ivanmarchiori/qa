@@ -11,11 +11,11 @@
         <md-table-cell>
           <md-button class="md-just-icon md-simple md-primary">
             <md-icon>edit</md-icon>
-            <md-tooltip md-direction="top">Edit</md-tooltip>
+            <md-tooltip md-direction="top">Editar</md-tooltip>
           </md-button>
           <md-button class="md-just-icon md-simple md-danger">
             <md-icon>close</md-icon>
-            <md-tooltip md-direction="top">Close</md-tooltip>
+            <md-tooltip md-direction="top">Fechar</md-tooltip>
           </md-button>
         </md-table-cell>
       </md-table-row>
@@ -31,13 +31,13 @@ export default {
       selected: [],
       users: [
         {
-          name: 'Sign contract for "What are conference organizers afraid of?"',
+          name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry."',
         },
         {
-          name: "Lines From Great Russian Literature? Or E-mails From My Boss?",
+          name: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         },
         {
-          name: "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit",
+          name: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         },
       ],
     };
