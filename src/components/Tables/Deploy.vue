@@ -2,7 +2,7 @@
   <div>
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
-        <md-table-cell md-label="Tipo de Teste">{{ item.tipoTeste }}</md-table-cell>
+        <md-table-cell md-label="Deploy Automatizado">{{ item.tipoTeste }}</md-table-cell>
         <md-table-cell md-label="Observação">{{ item.observacao }}</md-table-cell>
         <md-table-cell md-label="Periodicidade">{{ item.periodo }}</md-table-cell>
         <md-table-cell md-label="Ultima execução">{{ item.dataExecucao }}</md-table-cell>

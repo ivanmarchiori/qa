@@ -10,7 +10,7 @@
             <p class="category">Relação de Serviços disponíveis e seus Status de Funcionamentos</p>
           </md-card-header>
           <md-card-content>
-            <simple-table table-header-color="green"></simple-table>
+            <services-table></services-table>
           </md-card-content>
         </md-card>
       </div>
@@ -18,14 +18,14 @@
       
     </div>
   </div>
-</template>
+</template> 
 
 <script>
-import { SimpleTable } from "@/components";
+import { ServicesTable } from "@/components";
 
 export default {
   components: {
-    SimpleTable,
+    ServicesTable,
   },
 };
 </script>

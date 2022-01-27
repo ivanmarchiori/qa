@@ -5,12 +5,11 @@ import UserProfile from "@/pages/UserProfile.vue";
 import Testes from "@/pages/Testes.vue";
 import Deploy from "@/pages/Deploy.vue";
 import Servicos from "@/pages/Servicos.vue";
-import Documentacao from "@/pages/Documentacao.vue";
-import Typography from "@/pages/Typography.vue";
-import Icons from "@/pages/Icons.vue";
+import Documentacao from "@/pages/Documentacao.vue";  
 import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
-import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
+import Login from "@/pages/Login.vue";
+import Logoff from "@/pages/Logoff.vue";
 
 const routes = [
   {
@@ -50,14 +49,14 @@ const routes = [
       },
       
       {
-        path: "typography",
-        name: "Typography",
-        component: Typography,
+        path: "login",
+        name: "Login",
+        component: Login,
       },
       {
-        path: "icons",
-        name: "Icons",
-        component: Icons,
+        path: "logoff",
+        name: "Logoff",
+        component: Logoff,
       },
       {
         path: "maps",
@@ -71,12 +70,7 @@ const routes = [
         path: "notifications",
         name: "Notifications",
         component: Notifications,
-      },
-      {
-        path: "upgrade",
-        name: "Upgrade to PRO",
-        component: UpgradeToPRO,
-      },
+      } ,
     ],
   },
 ];

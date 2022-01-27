@@ -10,7 +10,7 @@
             <p class="category">Artigos e Recursos para processos executados em QA</p>
           </md-card-header>
           <md-card-content>
-            <simple-table table-header-color="green"></simple-table>
+            <doc-table table-header-color="green"></doc-table>
           </md-card-content>
         </md-card>
       </div>
@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import { SimpleTable } from "@/components";
+import { DocTable } from "@/components";
 
 export default {
   components: {
-    SimpleTable,
+    DocTable,
   },
 };
 </script>

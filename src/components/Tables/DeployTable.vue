@@ -1,12 +1,14 @@
 <template>
   <div>
-    <md-table v-model="users" :table-header-color="tableHeaderColor">
-     <md-table-row slot="md-table-row" slot-scope="{ item }">
-        <md-table-cell md-label="Tipo de Metrica">{{ item.tipoMetrica }}</md-table-cell> 
+    <md-table v-model="deploy" :table-header-color="tableHeaderColor">
+      <md-table-row slot="md-table-row" slot-scope="{ item }">
+        <md-table-cell md-label="Tipo de Deploy">{{ item.tipoDeploy }}</md-table-cell>
+        <md-table-cell md-label="Observação">{{ item.observacao }}</md-table-cell>
         <md-table-cell md-label="Periodicidade">{{ item.periodo }}</md-table-cell>
-        <md-table-cell md-label="Executado">{{ item.dataExecucao }}</md-table-cell>
-        <md-table-cell md-label="Registros">{{ item.qtdRegistros }}</md-table-cell>
+        <md-table-cell md-label="Ultima execução">{{ item.dataExecucao }}</md-table-cell>
+        <md-table-cell md-label="Quantidade Registros">{{ item.qtdRegistros }}</md-table-cell>
         <md-table-cell md-label="Status Atual"><button type="button" class="md-button md-raised md-success md-theme-default"><div class="md-ripple"><div class="md-button-content">{{ item.statusAtual }}</div> </div></button></md-table-cell>
+        <md-table-cell md-label="Executar"><button type="button" class="md-button md-raised md-danger md-theme-default"><div class="md-ripple"><div class="md-button-content">Executar</div> </div></button></md-table-cell>
       </md-table-row>
     </md-table>
   </div>
@@ -14,7 +16,7 @@
 
 <script>
 export default {
-  name: "ordered-table",
+  name: "deploy-table",
   props: {
     tableHeaderColor: {
       type: String,
@@ -24,50 +26,50 @@ export default {
   data() {
     return {
       selected: [],
-      users: [
-       {
-          tipoMetrica: "Nome do Metrica1",
-          observacao: "Descrição resumida das atividades do Metrica",
+      deploy: [
+        {
+          tipoDeploy: "Nome do Deploy1",
+          observacao: "Descrição resumida das atividades do Deploy",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
-          tipoMetrica: "Nome do Metrica2",
-          observacao: "Descrição resumida das atividades do Metrica",
+          tipoDeploy: "Nome do Deploy2",
+          observacao: "Descrição resumida das atividades do Deploy",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
-          tipoMetrica: "Nome do Metrica3",
-          observacao: "Descrição resumida das atividades do Metrica",
+          tipoDeploy: "Nome do Deploy3",
+          observacao: "Descrição resumida das atividades do Deploy",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
-          tipoMetrica: "Nome do Metrica4",
-          observacao: "Descrição resumida das atividades do Metrica",
+          tipoDeploy: "Nome do Deploy4",
+          observacao: "Descrição resumida das atividades do Deploy",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
-          tipoMetrica: "Nome do Metrica5",
-          observacao: "Descrição resumida das atividades do Metrica",
+          tipoDeploy: "Nome do Deploy5",
+          observacao: "Descrição resumida das atividades do Deploy",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
-          tipoMetrica: "Nome do Metrica6",
-          observacao: "Descrição resumida das atividades do Metrica",
+          tipoDeploy: "Nome do Deploy6",
+          observacao: "Descrição resumida das atividades do Deploy",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",

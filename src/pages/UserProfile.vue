@@ -7,17 +7,22 @@
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <user-card> </user-card>
       </div>
+
+      <div class="md-layout-item md-medium-size-100 md-size-100">
+        <users-table> </users-table>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import { EditProfileForm, UserCard } from "@/pages";
+import { EditProfileForm, UserCard, UsersTable } from "@/pages";
 
 export default {
   components: {
     EditProfileForm,
     UserCard,
+    UsersTable,
   },
 };
 </script>

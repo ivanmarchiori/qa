@@ -10,7 +10,7 @@
             <p class="category">Relação de Testes automatizados na plataforma com seus respectivos status</p>
           </md-card-header>
           <md-card-content>
-            <simple-table table-header-color="green"></simple-table>
+            <tests-table table-header-color="green"></tests-table>
           </md-card-content>
         </md-card>
       </div>
@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import { SimpleTable } from "@/components";
+import { TestsTable } from "@/components";
 
 export default {
   components: {
-    SimpleTable,
+    TestsTable,
   },
 };
 </script>

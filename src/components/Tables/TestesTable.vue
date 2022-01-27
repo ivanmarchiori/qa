@@ -2,11 +2,11 @@
   <div>
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
-        <md-table-cell md-label="Tipo Serviços">{{ item.tipoTeste }}</md-table-cell>
+        <md-table-cell md-label="Tipo de Teste"><b>{{ item.tipoTeste }}</b></md-table-cell>
         <md-table-cell md-label="Observação">{{ item.observacao }}</md-table-cell>
         <md-table-cell md-label="Periodicidade">{{ item.periodo }}</md-table-cell>
         <md-table-cell md-label="Ultima execução">{{ item.dataExecucao }}</md-table-cell>
-        <md-table-cell md-label="URL">{{ item.url }}</md-table-cell>
+        <md-table-cell md-label="Quantidade Registros">{{ item.qtdRegistros }}</md-table-cell>
         <md-table-cell md-label="Status Atual"><button type="button" class="md-button md-raised md-success md-theme-default"><div class="md-ripple"><div class="md-button-content">{{ item.statusAtual }}</div> </div></button></md-table-cell>
         <md-table-cell md-label="Executar"><button type="button" class="md-button md-raised md-danger md-theme-default"><div class="md-ripple"><div class="md-button-content">Executar</div> </div></button></md-table-cell>
       </md-table-row>
@@ -14,9 +14,9 @@
   </div>
 </template>
 
-<script> 
+<script>
 export default {
-  name: "simple-table-servicos",
+  name: "tests-table",
   props: {
     tableHeaderColor: {
       type: String,
@@ -28,11 +28,11 @@ export default {
       selected: [],
       users: [
         {
-          tipoTeste: "Nome do Teste1",
-          observacao: "Descrição resumida das atividades do teste",
+          tipoTeste: "Módulo Fiscal",
+          observacao: "Acesso ao Módulo e consulta de registro CRT 1",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
-          url: "www.servicos.com.br",
+          qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
@@ -40,7 +40,7 @@ export default {
           observacao: "Descrição resumida das atividades do teste",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
-          url: "www.servicos.com.br",
+          qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
@@ -48,7 +48,7 @@ export default {
           observacao: "Descrição resumida das atividades do teste",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
-          url: "www.servicos.com.br",
+          qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
@@ -56,7 +56,7 @@ export default {
           observacao: "Descrição resumida das atividades do teste",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
-          url: "www.servicos.com.br",
+          qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
@@ -64,7 +64,7 @@ export default {
           observacao: "Descrição resumida das atividades do teste",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
-          url: "www.servicos.com.br",
+          qtdRegistros: "999",
           statusAtual: "OK",
         },
         {
@@ -72,7 +72,7 @@ export default {
           observacao: "Descrição resumida das atividades do teste",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
-          url: "www.servicos.com.br",
+          qtdRegistros: "999",
           statusAtual: "OK",
         },
       ],

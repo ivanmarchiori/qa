@@ -6,11 +6,11 @@
       >
         <md-card>
           <md-card-header data-background-color="green">
-            <h4 class="title">Deploy Automatizados</h4>
-            <p class="category">Relação de Deploys Automatizados com seus respectivos status</p>
+            <h4 class="title">Deploy Automatizado</h4>
+            <p class="category">Relação de Deploys automatizados na plataforma com seus respectivos status</p>
           </md-card-header>
           <md-card-content>
-            <simple-table table-header-color="green"></simple-table>
+            <deploy-table table-header-color="green"></deploy-table>
           </md-card-content>
         </md-card>
       </div>
@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import { SimpleTable } from "@/components";
+import { DeployTable } from "@/components";
 
 export default {
   components: {
-    SimpleTable,
+    DeployTable,
   },
 };
 </script>

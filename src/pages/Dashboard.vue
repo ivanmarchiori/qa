@@ -205,7 +205,7 @@ import {
   ChartCard,
   NavTabsCard,
   NavTabsTable,
-  OrderedTable,
+  OrderedTable, 
 } from "@/components";
 
 export default {
@@ -214,7 +214,7 @@ export default {
     ChartCard,
     NavTabsCard,
     NavTabsTable,
-    OrderedTable,
+    OrderedTable, 
   },
   data() {
     return {
