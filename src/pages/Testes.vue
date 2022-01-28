@@ -7,7 +7,7 @@
         <md-card>
           <md-card-header data-background-color="green">
             <h4 class="title">Testes Automatizados</h4>
-            <p class="category">Relação de Testes automatizados na plataforma com seus respectivos status</p>
+            <p class="category">Relação de Testes automatizados na plataforma com seus respectivos status (Jenkins / PHPUnit / Selenium IDE / Selenium webdriver)</p>
           </md-card-header>
           <md-card-content>
             <tests-table table-header-color="green"></tests-table>

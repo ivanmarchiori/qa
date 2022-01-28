@@ -9,20 +9,20 @@
       </div>
 
       <div class="md-layout-item md-medium-size-100 md-size-100">
-        <users-table> </users-table>
+        <user-table> </user-table> 
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { EditProfileForm, UserCard, UsersTable } from "@/pages";
+import { EditProfileForm, UserCard, UserTable } from "@/pages";
 
 export default {
   components: {
     EditProfileForm,
     UserCard,
-    UsersTable,
+    UserTable,
   },
 };
 </script>

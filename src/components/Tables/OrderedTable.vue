@@ -6,7 +6,7 @@
         <md-table-cell md-label="Periodicidade">{{ item.periodo }}</md-table-cell>
         <md-table-cell md-label="Executado">{{ item.dataExecucao }}</md-table-cell>
         <md-table-cell md-label="Registros">{{ item.qtdRegistros }}</md-table-cell>
-        <md-table-cell md-label="Status Atual"><button type="button" class="md-button md-raised md-success md-theme-default"><div class="md-ripple"><div class="md-button-content">{{ item.statusAtual }}</div> </div></button></md-table-cell>
+        <md-table-cell md-label="Status Atual"><button type="button" class="md-button md-raised md-success md-block  md-theme-default"><div class="md-ripple"><div class="md-button-content">{{ item.statusAtual }}</div> </div></button></md-table-cell>
       </md-table-row>
     </md-table>
   </div>

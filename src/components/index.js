@@ -11,8 +11,8 @@ import SimpleTable from "./Tables/SimpleTable.vue";
 import TestsTable from "./Tables/TestsTable.vue";
 import DeployTable from "./Tables/DeployTable.vue";
 import ServicesTable from "./Tables/ServicesTable.vue";
-import DocTable from "./Tables/DocTable.vue";
 import UsersTable from "./Tables/UsersTable.vue";
+import DocTable from "./Tables/DocTable.vue"; 
 
 export {
   ChartCard,
@@ -25,5 +25,5 @@ export {
   DocTable,
   TestsTable,
   DeployTable,
-  UsersTable,
+  UsersTable, 
 };

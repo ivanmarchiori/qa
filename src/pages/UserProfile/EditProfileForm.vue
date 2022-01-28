@@ -26,49 +26,44 @@
               <md-input v-model="emailadress" type="email"></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-50">
+          <div class="md-layout-item md-small-size-100 md-size-20">
             <md-field>
               <label>Nome</label>
               <md-input v-model="firstname" type="text"></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-50">
+          <div class="md-layout-item md-small-size-100 md-size-20">
             <md-field>
               <label>Sobrenome</label>
               <md-input v-model="lastname" type="text"></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-100">
-            <md-field>
-              <label>Endereço</label>
-              <md-input v-model="address" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
+           
+          <div class="md-layout-item md-small-size-100 md-size-20">
             <md-field>
               <label>Cidade</label>
               <md-input v-model="city" type="text"></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
+          <div class="md-layout-item md-small-size-100 md-size-20">
             <md-field>
               <label>Pais</label>
               <md-input v-model="country" type="text"></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
+          <div class="md-layout-item md-small-size-100 md-size-20">
             <md-field>
               <label>CEP</label>
               <md-input v-model="code" type="number"></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item md-size-100">
+          <div class="md-layout-item md-size-66">
             <md-field maxlength="5">
-              <label>Sobre </label>
+              <label>Sobre suas habilidades e competências </label>
               <md-textarea v-model="aboutme"></md-textarea>
             </md-field>
           </div>
-          <div class="md-layout-item md-size-100 text-right">
+          <div class="md-layout-item md-size-33 text-right">
             <md-button class="md-raised md-success">Atualizar</md-button>
           </div>
         </div>

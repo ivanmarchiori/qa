@@ -4,4 +4,7 @@ import UserCard from "../pages/UserProfile/UserCard.vue";
 // Forms
 import EditProfileForm from "../pages/UserProfile/EditProfileForm.vue";
 
-export { UserCard, EditProfileForm };
+// Tabela
+import UserTable from "../pages/UserProfile/UserTable.vue";
+
+export { UserCard, EditProfileForm, UserTable };

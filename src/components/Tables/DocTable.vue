@@ -12,7 +12,7 @@
         <md-table-cell md-label="Download">
           <button
             type="button"
-            class="md-button md-raised md-info md-theme-default"
+            class="md-button md-raised md-block  md-info md-theme-default"
           >
             <div class="md-ripple">
               <div class="md-button-content">Download</div>

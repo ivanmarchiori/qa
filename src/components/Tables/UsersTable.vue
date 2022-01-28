@@ -6,8 +6,8 @@
         <md-table-cell md-label="Email">{{ item.email }}</md-table-cell>
         <md-table-cell md-label="Usuario">{{ item.usuario }}</md-table-cell>
         <md-table-cell md-label="Ultimo acesso">{{ item.dataAcesso }}</md-table-cell>
-        <md-table-cell md-label="Alterar"><button type="button" class="md-button md-raised md-warning md-theme-default"><div class="md-ripple"><div class="md-button-content">Alterar</div> </div></button></md-table-cell>
-        <md-table-cell md-label="Excluir"><button type="button" class="md-button md-raised md-danger md-theme-default"><div class="md-ripple"><div class="md-button-content">Excluir</div> </div></button></md-table-cell>
+        <md-table-cell md-label="Alterar"><button type="button" class="md-button md-raised md-warning md-block  md-theme-default"><div class="md-ripple"><div class="md-button-content">Alterar</div> </div></button></md-table-cell>
+        <md-table-cell md-label="Excluir"><button type="button" class="md-button md-raised md-danger md-block  md-theme-default"><div class="md-ripple"><div class="md-button-content">Excluir</div> </div></button></md-table-cell>
       </md-table-row>
     </md-table>
   </div>

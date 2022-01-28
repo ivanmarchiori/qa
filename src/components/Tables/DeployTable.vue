@@ -7,8 +7,8 @@
         <md-table-cell md-label="Periodicidade">{{ item.periodo }}</md-table-cell>
         <md-table-cell md-label="Ultima execução">{{ item.dataExecucao }}</md-table-cell>
         <md-table-cell md-label="Quantidade Registros">{{ item.qtdRegistros }}</md-table-cell>
-        <md-table-cell md-label="Status Atual"><button type="button" class="md-button md-raised md-success md-theme-default"><div class="md-ripple"><div class="md-button-content">{{ item.statusAtual }}</div> </div></button></md-table-cell>
-        <md-table-cell md-label="Executar"><button type="button" class="md-button md-raised md-danger md-theme-default"><div class="md-ripple"><div class="md-button-content">Executar</div> </div></button></md-table-cell>
+        <md-table-cell md-label="Status Atual"><button type="button" class="md-button md-raised md-block  md-success md-theme-default"><div class="md-ripple"><div class="md-button-content">{{ item.statusAtual }}</div> </div></button></md-table-cell>
+        <md-table-cell md-label="Executar"><button type="button" class="md-button md-raised md-block  md-danger md-theme-default"><div class="md-ripple"><div class="md-button-content">Executar</div> </div></button></md-table-cell>
       </md-table-row>
     </md-table>
   </div>
