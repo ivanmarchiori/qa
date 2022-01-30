@@ -64,15 +64,7 @@ export default {
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
-        },
-        {
-          tipoMetrica: "Nome do Metrica6",
-          observacao: "Descrição resumida das atividades do Metrica",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
+        }, 
       ],
     };
   },

@@ -13,7 +13,7 @@
         <p>Dashboard</p>
       </sidebar-link>
 
-      <sidebar-link to="/testes">
+      <sidebar-link to="/tests">
         <md-icon>content_paste</md-icon>
         <p>Testes Automatizados</p>
       </sidebar-link>
@@ -23,7 +23,7 @@
         <p>Deploy Automático</p>
       </sidebar-link>
 
-      <sidebar-link to="/servicos">
+      <sidebar-link to="/services">
         <md-icon>location_on</md-icon>
         <p>Serviços</p>
       </sidebar-link>
@@ -38,7 +38,7 @@
         <p>Notificações</p>
       </sidebar-link>
 
-      <sidebar-link to="/user">
+      <sidebar-link to="/userProfile">
         <md-icon>person</md-icon>
         <p>Usuários</p>
       </sidebar-link> 

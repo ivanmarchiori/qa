@@ -51,22 +51,7 @@ export default {
           email: "email@provedor.com.br",
           usuario: "username",
           dataAcesso: "00/00/0000 00:00:00",
-        },{
-          nomeCompleto: "Nome e Sobrenome6",
-          email: "email@provedor.com.br",
-          usuario: "username",
-          dataAcesso: "00/00/0000 00:00:00",
-        },{
-          nomeCompleto: "Nome e Sobrenome7",
-          email: "email@provedor.com.br",
-          usuario: "username",
-          dataAcesso: "00/00/0000 00:00:00",
-        },{
-          nomeCompleto: "Nome e Sobrenome8",
-          email: "email@provedor.com.br",
-          usuario: "username",
-          dataAcesso: "00/00/0000 00:00:00",
-        },
+        }, 
       ],
     };
   },

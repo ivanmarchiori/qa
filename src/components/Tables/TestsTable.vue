@@ -28,8 +28,8 @@ export default {
       selected: [],
       users: [
         {
-          tipoTeste: "Nome do Teste1",
-          observacao: "Descrição resumida das atividades do teste",
+          tipoTeste: "Módulo Fiscal",
+          observacao: "Acesso ao Módulo e consulta de registro CRT 1",
           periodo: "1 vez ao dia",
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
@@ -66,15 +66,7 @@ export default {
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
-        },
-        {
-          tipoTeste: "Nome do Teste6",
-          observacao: "Descrição resumida das atividades do teste",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
+        }, 
       ],
     };
   },

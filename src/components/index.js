@@ -13,6 +13,7 @@ import DeployTable from "./Tables/DeployTable.vue";
 import ServicesTable from "./Tables/ServicesTable.vue";
 import UsersTable from "./Tables/UsersTable.vue";
 import DocTable from "./Tables/DocTable.vue"; 
+import BugsTable from "./Tables/BugsTable.vue";
 
 export {
   ChartCard,
@@ -25,5 +26,6 @@ export {
   DocTable,
   TestsTable,
   DeployTable,
-  UsersTable, 
+  UsersTable,
+  BugsTable 
 };

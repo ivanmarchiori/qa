@@ -1,6 +1,10 @@
 <template>
   <div class="content">
     <div class="md-layout">
+
+      <div class="md-layout-item md-medium-size-100 md-size-100">
+        <edit-docs-form data-background-color="green"> </edit-docs-form>
+      </div>
       <div
         class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-100"
       >
@@ -21,11 +25,13 @@
 </template>
 
 <script>
+import { EditDocsForm } from "@/pages";
 import { DocTable } from "@/components";
 
 export default {
   components: {
     DocTable,
+    EditDocsForm
   },
 };
 </script>

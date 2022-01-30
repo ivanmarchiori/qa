@@ -16,7 +16,7 @@
 
 <script> 
 export default {
-  name: "simple-table-testes",
+  name: "simple-table-tests",
   props: {
     tableHeaderColor: {
       type: String,
@@ -66,15 +66,7 @@ export default {
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
-        },
-        {
-          tipoTeste: "Nome do Teste6",
-          observacao: "Descrição resumida das atividades do teste",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
+        }, 
       ],
     };
   },

@@ -4,16 +4,19 @@
       <nav>
         <ul>
           <li>
-            <a href="/#/qa">Quality Assurance</a>
-          </li>
-          <li>
             <a href="/#/dashboard"> Inicio </a>
           </li>
           <li>
-            <a href="/#/docs"> Documentação </a>
+            <a href="/#/qa">Quality Assurance</a>
+          </li>
+          <li>
+            <a href="/#/notifications"> Documentação </a>
           </li>
           <li>
             <a href="/#/bugs"> Reportar Erros </a>
+          </li>
+          <li>
+            <a href="/#/login"> Efetuar Login * </a>
           </li>
         </ul>
       </nav>

@@ -66,15 +66,7 @@ export default {
           dataExecucao: "00/00/0000 00:00:00",
           qtdRegistros: "999",
           statusAtual: "OK",
-        },
-        {
-          tipoDeploy: "Nome do Deploy6",
-          observacao: "Descrição resumida das atividades do Deploy",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
+        }, 
       ],
     };
   },
