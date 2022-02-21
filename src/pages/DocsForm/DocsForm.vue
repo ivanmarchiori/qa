@@ -2,7 +2,7 @@
   <form>
     <md-card>
       <md-card-header :data-background-color="dataBackgroundColor">
-        <h4 class="title">Documentação</h4>
+        <h4 class="title">Base de Conhecimentos</h4>
         <p class="category">Adicone a documentação dos principais processos em QA</p>
       </md-card-header>
 
@@ -28,12 +28,12 @@
           </div>
           <div class="md-layout-item md-size-66">
             <md-field maxlength="5">
-              <label>Documentação </label>
+              <label>Conhecimentos </label>
               <md-textarea v-model="aboutme"></md-textarea>
             </md-field>
           </div>
           <div class="md-layout-item md-size-33 text-right">
-            <md-button class="md-raised md-success">Adicionar Documentação</md-button>
+            <md-button class="md-raised md-success">Adicionar Conhecimentos</md-button>
           </div>
         </div>
       </md-card-content>

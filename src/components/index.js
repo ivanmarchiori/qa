@@ -6,7 +6,6 @@ import StatsCard from "./Cards/StatsCard.vue";
 // Tables
 import NavTabsTable from "./Tables/NavTabsTable.vue";
 import OrderedTable from "./Tables/OrderedTable.vue";
-import SimpleTable from "./Tables/SimpleTable.vue";
 
 import TestsTable from "./Tables/TestsTable.vue";
 import DeployTable from "./Tables/DeployTable.vue";
@@ -21,7 +20,6 @@ export {
   StatsCard,
   NavTabsTable,
   OrderedTable,
-  SimpleTable,
   ServicesTable,
   DocTable,
   TestsTable,

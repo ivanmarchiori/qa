@@ -1,6 +1,6 @@
 <template>
   <div>
-    <md-table v-model="deploy" :table-header-color="tableHeaderColor">
+    <md-table v-model="deployData" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Tipo de Deploy">{{ item.tipoDeploy }}</md-table-cell>
         <md-table-cell md-label="Observação">{{ item.observacao }}</md-table-cell>
@@ -26,49 +26,13 @@ export default {
   data() {
     return {
       selected: [],
-      deploy: [
-        {
-          tipoDeploy: "Nome do Deploy1",
-          observacao: "Descrição resumida das atividades do Deploy",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
-        {
-          tipoDeploy: "Nome do Deploy2",
-          observacao: "Descrição resumida das atividades do Deploy",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
-        {
-          tipoDeploy: "Nome do Deploy3",
-          observacao: "Descrição resumida das atividades do Deploy",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
-        {
-          tipoDeploy: "Nome do Deploy4",
-          observacao: "Descrição resumida das atividades do Deploy",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        },
-        {
-          tipoDeploy: "Nome do Deploy5",
-          observacao: "Descrição resumida das atividades do Deploy",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-        }, 
-      ],
+      deployData: [],
     };
+  },mounted() {
+    fetch("http://localhost/qa/api/?metodo=deploy")
+      .then((res) => res.json())
+      .then((data) => (this.deployData = data.data))
+      .catch((err) => console.log(err.message));
   },
 };
 </script>

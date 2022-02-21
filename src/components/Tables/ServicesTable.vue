@@ -1,6 +1,6 @@
 <template>
   <div>
-    <md-table v-model="services" :table-header-color="tableHeaderColor">
+    <md-table v-model="servicesData" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Tipo de Services">{{
           item.tipoServices
@@ -67,81 +67,14 @@ export default {
   data() {
     return {
       selected: [],
-      services: [
-        {
-          tipoServices: "SEFAZ",
-          observacao: "Acesso ao status da secretaria da Fazenda",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-        {
-          tipoServices: "SysAid",
-          observacao: "Status do Serviço de acesso ao site",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "Atenção",
-          bgButton: "danger",
-        },
-        {
-          tipoServices: "Meistertask",
-          observacao: "Status do Serviço de acesso ao site",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-        {
-          tipoServices: "ICorp",
-          observacao: "Status do Serviço de acesso ao site",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-        {
-          tipoServices: "Franquias",
-          observacao: "Status do Serviço de acesso ao site",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-        {
-          tipoServices: "Banco de Dados > DEV",
-          observacao: "Acesso ao Banco com status de conexao",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-        {
-          tipoServices: "Banco de Dados > QA",
-          observacao: "Acesso ao Banco com status de conexao",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-        {
-          tipoServices: "Banco de Dados > Produção",
-          observacao: "Acesso ao Banco com status de conexao",
-          periodo: "1 vez ao dia",
-          dataExecucao: "00/00/0000 00:00:00",
-          qtdRegistros: "999",
-          statusAtual: "OK",
-          bgButton: "success",
-        },
-      ],
+      servicesData: [],
     };
+  }
+  ,mounted() {
+    fetch("http://localhost/qa/api/?metodo=services")
+      .then((res) => res.json())
+      .then((data) => (this.servicesData = data.data))
+      .catch((err) => console.log(err.message));
   },
 };
 </script>

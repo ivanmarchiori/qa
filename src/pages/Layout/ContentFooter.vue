@@ -10,7 +10,7 @@
             <a href="/#/qa">Quality Assurance</a>
           </li>
           <li>
-            <a href="/#/notifications"> Documentação </a>
+            <a href="/#/notifications"> Conhecimentos </a>
           </li>
           <li>
             <a href="/#/bugs"> Reportar Erros </a>

@@ -11,7 +11,7 @@ import Notifications from "@/pages/Notifications.vue";
 import Login from "@/pages/Login.vue";
 import Logoff from "@/pages/Logoff.vue";
 import Qa from "@/pages/Qa.vue";
-import Bugs from "@/pages/Bugs.vue";
+import Bugs from "@/pages/Bugs.vue"; 
 
 const routes = [{
   path: "/",
@@ -39,7 +39,7 @@ const routes = [{
     },
     {
       path: "docs",
-      name: "Documentação",
+      name: "Conhecimentos",
       component: Docs,
     },
     {

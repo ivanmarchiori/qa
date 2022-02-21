@@ -30,14 +30,9 @@
 
       <sidebar-link to="/docs">
         <md-icon>library_books</md-icon>
-        <p>Documentação</p>
+        <p>Conhecimentos</p>
       </sidebar-link>
-
-      <sidebar-link to="/notifications">
-        <md-icon>notifications</md-icon>
-        <p>Notificações</p>
-      </sidebar-link>
-
+ 
       <sidebar-link to="/userProfile">
         <md-icon>person</md-icon>
         <p>Usuários</p>

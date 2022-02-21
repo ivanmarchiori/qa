@@ -1,12 +1,11 @@
-# Projeto QA - Utility Belt 
+# Projeto QA - Utility Belt
 
-
-Desenvolvimento de Dashboard de Controle, Monitoramento, Automatizações e Recursos dos fluxo de trabalho das atividades de QA. 
+Desenvolvimento de Dashboard de Controle, Monitoramento, Automatizações e Recursos dos fluxo de trabalho das atividades de QA.
 
 ## Recursos Principais
 
 * Dashboard e Alertas
-* Documentação
+* Base de Conhecimento
 * Testes Automatizados
 * Serviços
 * Tarefas
@@ -28,7 +27,7 @@ Desenvolvimento de Dashboard de Controle, Monitoramento, Automatizações e Recu
 
 `npm run build`
 
-- [https://github.com/ivanmarchiori/qa.git](https://github.com/creativetimofficial/vue-material-dashboard/archive/master.zip) 
+- [https://github.com/ivanmarchiori/qa.git](https://github.com/creativetimofficial/vue-material-dashboard/archive/master.zip)
 
 ## Documentação
 
@@ -111,7 +110,7 @@ Ao encontrar erros e sugerir sugestões, sinta-se a vontade para contribuir a pa
 
 ## Suporte técnico e Perguntas
 
-Se você tiver dúvidas ou precisar de ajuda, por favor entre em contato em ivanmarchiori@hotmail.com em vez de abrir um problema. 
+Se você tiver dúvidas ou precisar de ajuda, por favor entre em contato em ivanmarchiori@hotmail.com em vez de abrir um problema.
 
 ## Licença
 

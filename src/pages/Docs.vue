@@ -10,7 +10,7 @@
       >
         <md-card>
           <md-card-header data-background-color="green">
-            <h4 class="title">Documentação</h4>
+            <h4 class="title">Base de Conhecimentos</h4>
             <p class="category">Artigos e Recursos para processos executados em QA</p>
           </md-card-header>
           <md-card-content>
